@@ -1,0 +1,41 @@
+Which sort is used when?
+
+
+-----------COMPARISON SORT--------
+
+1.Insertion sort = when item will be few,input are small or item are mostly sorted
+
+2.Bubble sort = it is not very efficient it teaches for learning purposes
+
+3.Selection sort = same as bubble sort
+
+4.Merge sort = it is very efficient because of divide and conquer method or rules it's always beem a time complexity of O(n log(n)) in evry cases,if space complexity is not so matter then it is better to use
+
+5.Quick sort = It is better than the merge sort because of space complexity which is O(1) and downside of this sort is in the worst case time complexity because it has O(n^2) which is not so efficient.
+
+Heap sort = it is better than above all cz of all cases time complexity is O(n log(n)) and space complexity is O(1)
+
+
+Can WE beat O(n log(n))??
+
+YESS! 
+
+with
+
+-----------Non-COMPARISON SORT--------
+
+[N.B->It only use for number data type like integer not all of data type]
+
+1.Radix Sort===>
+
+Radix sort is an integer sorting algorithm that sorts data with integer keys by grouping the keys by individual digits that share the same significant position and value (place value).
+time complexity -->O(nk) all cases
+space complexity -->O(n+k)
+
+
+2.Counting Sort===>
+
+Counting sort is an efficient algorithm for sorting an array of elements that each have a nonnegative integer key, for example, an array, sometimes called a list, of positive integers could have keys that are just the value of the integer as the key, or a list of words could have keys assigned to them by some scheme mapping the alphabet to integers (to sort in alphabetical order, for instance).
+
+time complexity -->O(n+k) all cases
+space complexity -->O(k)
